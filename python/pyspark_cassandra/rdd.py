@@ -88,7 +88,7 @@ def saveToCassandra(rdd, keyspace=None, table=None, columns=None, row_format=Non
             columns,
             row_format,
             keyed,
-            write_conf,
+            write_conf
         )
 
 
